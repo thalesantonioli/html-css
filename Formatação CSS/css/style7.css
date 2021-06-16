@@ -1,0 +1,17 @@
+#topo{
+    margin: 10px auto;
+    font-family: calibri;
+    width: 600px;
+    background: #38003C;
+    padding: 10px;
+    color: #FFF;
+  }
+  
+  h1{
+    background: #E90052;
+    padding: 20px 10px;
+    font-size: 25px;
+  }
+  p{
+    text-align: justify;
+  }

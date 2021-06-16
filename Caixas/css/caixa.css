@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+#nav {
+    height: 60px;
+    background-color: rgba(64, 115, 201,0.4);
+}
+
+#busca {
+    height: 60px;
+    text-align: center;
+}
+
+#busca input {
+    width: 680px;
+    margin-top: 10px;
+    border: 1px solid rgb(64, 115, 201);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#caixas {
+    margin-top: 20px;
+}
+
+#caixa {
+    width: 735px;
+    height: 140px;
+    border: 1px solid rgb(143, 173, 191);
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+    display: block;
+}
+
+#caixa p {
+    color: rgb(2, 72, 115);
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#instagram {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin: 18px;
+}
+
+#containerPreco {
+    height: 120px;
+    float: right;
+}
+
+#preco {
+    margin-left: 10px;
+    border-left: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    border-end-start-radius: 5px;
+    height: 50px;
+    width: 200px;
+    float: right;
+    background-color: rgba(143, 173, 191, 0.2)
+}
+
+#preco h5 {
+    text-align: center;
+    text-decoration: line-through;
+    float: left;
+    margin-left: 20px;
+    color: rgb(1, 24, 38);
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#preco h3 {
+    float: right;
+    margin-right: 20px;
+    color: rgb(1, 24, 38);
+    font-family: 'Nunito Sans', sans-serif;
+}

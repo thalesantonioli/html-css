@@ -1,0 +1,53 @@
+#tudo{
+    width: 800px;
+    height: 640px;
+    margin: 10px auto;
+    border: 1px solid #000;
+}
+
+#topo{
+    background-color: #CCC;
+    width: 780px;
+    height: 80px;
+    margin: 10px auto;
+    border: 1px solid #000;
+}
+
+#topo h1{
+    text-align: center;
+}
+
+#coluna-um, #coluna-dois{
+    background: #ccc;
+    width: 378px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 10px;
+    float: left;}
+  
+#coluna-dois{
+    float:right;
+}
+  
+#coluna-um h3, #coluna-dois h3{
+    text-align: center;
+}
+
+#parte-um, #parte-dois, #parte-tres{
+    background-color: #CCC;
+    margin: 10px;
+    float: left;
+    width: 244px;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#rodape{
+    clear: both;
+    background: #ccc;
+    width: 780px;
+    height: 80px;
+    margin: 10px auto;
+    border: 1px solid #000;
+    text-align: center;
+}
