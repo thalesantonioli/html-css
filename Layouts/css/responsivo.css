@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;}
+body{
+	background: #38003C;
+	font-family: calibri;}
+.conteudo{
+		width: 90%;
+		max-width:1100px;
+		margin: 0 auto;
+		overflow: hidden;}
+header, footer{
+	clear: both;
+	float: left;
+	margin: 20px 0;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 20px;
+	color: #fff;
+	background: #E90052;}
+header h1{
+		color: #fff;
+		padding: 20px 0;
+		text-align: center;}
+.principal{
+		width:70%;
+		background:  #fff;
+		padding: 20px;
+		float: left;
+		box-sizing: border-box;}
+aside{
+	width:30%;
+	padding: 20px;
+	box-sizing: border-box;
+	background: #ccc;
+	float: left;}
+
+@media (max-width: 400px){
+	.conteudo{
+		width: 100%;}
+}
+
+@media (min-width: 401px) and (max-width: 630px){
+	body{
+		background: #333;
+		color:#000;}
+}
+
+@media (max-width: 800px){
+	.principal{
+		width: 100%;}
+	aside{
+		width: 100%;}
+}

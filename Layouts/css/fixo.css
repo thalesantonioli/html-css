@@ -1,0 +1,39 @@
+.tudo, article, header, main, footer{
+    width: 980px;
+    margin: 10px auto;
+    clear: both;
+  }
+  header, footer{
+    height: 100px;
+    line-height: 100px;
+    background: #38003C;
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 30px;
+    text-align: center;
+  }
+  main{
+    color: #FFF;
+    font-family: Calibri;
+    font-size: 18px;
+    height: auto;
+    margin-bottom: 320px;
+  }
+  .principal{
+    margin: 0;
+    width: 800px;
+    height: 300px;
+    background: #E90052;
+    float: left;
+  }
+  .ancoras{
+    width: 170px;
+    height: 300px;
+    background: #BF2E6C;
+    float: right;
+  }
+  .ancoras, .principal{ 
+    text-align: center; 
+    padding-top: 110px; 
+    box-sizing: border-box;
+  }
